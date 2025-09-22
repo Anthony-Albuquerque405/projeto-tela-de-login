@@ -22,7 +22,7 @@ azul claro: #00BFFF
 
 html,
 body {
-  background: var(--cor-primaria) url("../imagens/pexels-13nuance-561463.jpg")
+  background: var(--cor-secundaria) url("../imagens/pexels-13nuance-561463.jpg")
     no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
@@ -40,7 +40,7 @@ main {
 section#tela-logim {
   background-color: #ffffff9b;
   width: 300px;
-  height: 500px;
+  height: 600px;
   border-radius: 20px;
   position: absolute;
   top: 50%;
@@ -63,9 +63,62 @@ section#tela-logim div#formulario {
 }
 div#formulario h1 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 div#formulario p {
   text-align: center;
+  padding: 5px;
+  font-size: 0.8em;
+}
+
+form > div.campo {
+  background-color: #5502559c;
+  text-align: center;
+  width: 100%;
+  display: block;
+  height: 30px;
+  border-radius: 5px;
+  margin: 5px 0px;
+}
+
+div.campo > label {
+  display: none;
+}
+
+form > input[type="submit"] {
+  display: block;
+  font-size: 1em;
+  width: 100%;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid rgba(171, 77, 14, 0.482);
+  border-radius: 8px;
+}
+
+form > input[type="submit"]:hover {
+  background-color: var(--cor-primaria);
+  color: white;
+  cursor: pointer;
+}
+form > a.botao {
+  display: block;
+  font-size: 1em;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  padding-top: 5px;
+  margin-top: 5px;
+  background-color: transparent;
+  border: 1px solid rgba(171, 77, 14, 0.482);
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+}
+form > a.botao:hover {
+  background-color: var(--cor-terciaria);
+  color: white;
+  cursor: pointer;
+}
+form > a.botao > i {
   font-size: 0.8em;
 }

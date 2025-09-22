@@ -14,8 +14,10 @@
  */
 
 @media screen and (min-width: 600px) and (max-width: 950px) {
+  /*tablet*/
   section#tela-logim {
-    width: 80vw;
+    width: 70vw;
+    height: 50vh;
   }
 
   section#tela-logim div#imagem {
@@ -27,12 +29,18 @@
     float: right;
     width: 70%;
     height: 100%;
+    padding: 20px;
+  }
+  div#formulario p {
+    font-size: 1.1em;
   }
 }
 
 @media screen and (min-width: 951px) {
+  /*desktop*/
   section#tela-logim {
-    width: 83vw;
+    width: 70vw;
+    height: 50vh;
   }
 
   section#tela-logim div#imagem {
@@ -44,11 +52,12 @@
     float: left;
     width: 60%;
     height: 100%;
+    padding: 20px;
   }
   div#formulario h1 {
     font-size: 2em;
   }
   div#formulario p {
-    font-size: 1.2em;
+    font-size: 1.3em;
   }
 }

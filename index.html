@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="estilos/style.css" />
     <link rel="stylesheet" href="estilos/midiaquery.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <!--Link completo dos icons do google-->
     <title>LOGIN</title>
   </head>
   <body>
@@ -19,7 +24,41 @@
             Seja bem vindo(a) novamente. Faça login para acessar sua conta
             novamente, e configurar suas preferências.
           </p>
-          <form action="login.php" method="post"></form>
+          <form action="login.php" method="post" autocomplete="on">
+            <div class="campo">
+              <i class="material-symbols-outlined"> account_circle </i>
+              <input
+                type="email"
+                name="login"
+                id="ilogin"
+                required
+                placeholder="Seu e-mail"
+                autocomplete="email"
+                maxlength="30"
+                minlength="5"
+              />
+              <label for="ilogin">Login: </label>
+            </div>
+            <div class="campo">
+              <i class="material-symbols-outlined">lock</i>
+              <input
+                type="password"
+                name="senha"
+                id="isenha"
+                required
+                placeholder="Sua Senha"
+                autocomplete="current-password"
+                maxlength="20"
+                minlength="5"
+              />
+              <label for="isenha">Senha: </label>
+            </div>
+            <input type="submit" value="Entrar" id="btn-entrar" />
+            <a href="#"
+              >Esqueci minha senha
+              <i class="material-symbols-outlined">mail</i></a
+            >
+          </form>
         </div>
       </section>
     </main>

@@ -45,7 +45,7 @@ section#tela-logim {
   left: 50%;
   transform: translate(-50%, -50%);
   box-shadow: 0px 0px 10px #00000060;
-  transition: width 0.8s, height 0.8s;
+  transition: width 1s, height 1s;
   transition-timing-function: ease;
 }
 section#tela-logim div#imagem {
@@ -58,4 +58,12 @@ section#tela-logim div#imagem {
 section#tela-logim div#formulario {
   display: block;
   padding: 10px;
+}
+div#formulario h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+div#formulario p {
+  text-align: center;
+  font-size: 0.8em;
 }

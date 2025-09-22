@@ -1,2 +1,48 @@
 @charset "UTF-8";
 /* Midia Queries */
+
+/* Typical devices Breakpoints
+------------------------------------------
+
+768x1024   1024x768   Tablet portrait
+1024x768   768x1024   Tablet landscape
+1280x800   800x1280   Desktop
+1366x768   768x1366   Desktop
+1440x900   900x1440   Desktop
+1920x1080  1080x1920  Desktop
+
+ */
+
+@media screen and (min-width: 600px) and (max-width: 950px) {
+  section#tela-logim {
+    width: 80vw;
+  }
+
+  section#tela-logim div#imagem {
+    float: left;
+    width: 30%;
+    height: 100%;
+  }
+  section#tela-logim div#formulario {
+    float: right;
+    width: 70%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 951px) {
+  section#tela-logim {
+    width: 83vw;
+  }
+
+  section#tela-logim div#imagem {
+    float: right;
+    width: 40%;
+    height: 100%;
+  }
+  section#tela-logim div#formulario {
+    float: left;
+    width: 60%;
+    height: 100%;
+  }
+}

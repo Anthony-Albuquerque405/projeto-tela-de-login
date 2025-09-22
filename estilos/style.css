@@ -36,7 +36,7 @@ main {
   background-attachment: fixed;
 }
 section#tela-logim {
-  background-color: var(--cor-primaria);
+  background-color: #ffffff9b;
   width: 300px;
   height: 500px;
   border-radius: 20px;
@@ -45,10 +45,12 @@ section#tela-logim {
   left: 50%;
   transform: translate(-50%, -50%);
   box-shadow: 0px 0px 10px #00000060;
+  transition: width 0.8s, height 0.8s;
+  transition-timing-function: ease;
 }
 section#tela-logim div#imagem {
-  background: var(--cor-secundaria)
-    url(../imagens/pexels-alina-1008702-10843833.jpg) no-repeat top center;
+  background: var(--cor-secundaria) url("../imagens/pexels-13nuance-561463.jpg")
+    no-repeat top center;
   background-size: cover;
   height: 250px;
   display: block;

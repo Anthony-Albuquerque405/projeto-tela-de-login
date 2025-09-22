@@ -22,7 +22,9 @@ azul claro: #00BFFF
 
 html,
 body {
-  background-color: var(--cor-secundaria);
+  background: var(--cor-primaria) url("../imagens/pexels-13nuance-561463.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
   height: 100vh;
   width: 100vw;
 }
